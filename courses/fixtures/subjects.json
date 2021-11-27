@@ -1,0 +1,40 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Operating Systems",
+    "slug": "operating-systems"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "OS",
+    "slug": "os",
+    "overview": "This is the overview for Operating Systems Course.",
+    "created": "2021-11-19T15:34:01.355Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Lecture 01",
+    "description": "This is the lecture summary."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Lecture 02",
+    "description": ""
+  }
+}
+]

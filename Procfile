@@ -1,0 +1,1 @@
+web: gunicorn lecturecat.wsgi --log-file-
